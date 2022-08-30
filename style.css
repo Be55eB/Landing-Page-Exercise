@@ -11,7 +11,7 @@ body {
     align-items: center;
     background: #1F2937;
     color: white;
-    padding: 10px 100px;
+    padding: 10px 300px;
 }
 
 .header-logo {
@@ -36,3 +36,48 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.hero {
+    display: flex;
+    background: #1F2937 ;
+    justify-content: space-between;
+    padding: 100px 300px;
+    gap: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: normal;
+}
+button, .cta-button {
+    background-color: #3882F6;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px 20px;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+    border: none;
+}
+
+img {
+    height: auto;
+    max-width: 500px;
+}
+
